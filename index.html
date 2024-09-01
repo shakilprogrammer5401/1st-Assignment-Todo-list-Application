@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css file/main.css">
+</head>
+<body>
+ 
+
+
+    <style>
+        ul li{
+            border-radius: 8px;
+            margin-top: 12px;
+            padding: 6px 12px;
+            border: 0.25px solid #b3b3b3;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        }p{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container mx-auto">
+
+<header class="mb-5">
+    <ul class="flex justify-items-center justify-between p-4 bg-yellow-300 text-2xl   ">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Daily Life</a></li>
+        <li><a href="#">Life Changing Story</a></li>
+    </ul>
+</header>
+
+<div class="container mx-auto flex flex-col justify-center items-center" >
+    <div class=" bg-red-400 w-full text-center p-5 text-2xl ">
+           <h1 class="text-center">TO-DO List</h1>
+    <input type="text" placeholder="Add a new to do..." class="border-2 border-black w-4/5 p-2 outline-none rounded" id="inputBox">
+    <button type="button" class="border-2 px-4 py-2 bg-green-600 outline-none cursor-pointer hover:bg-[#60b160] border-none ms-2 " id="addBtn">ADD</button>
+    </div>
+ 
+
+
+
+<ul class="flex flex-col justify-center w-full items-center" id="todoList">
+    <!-- <li class="cursor-pointer round">Task 1</li>
+    <li>Task 2</li>
+    <li>Task 3</li>
+    <li>Task 4</li>
+    <li>Task 5</li> -->
+
+</ul>
+
+
+
+</div>
+
+
+
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
